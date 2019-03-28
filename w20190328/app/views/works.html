@@ -25,12 +25,13 @@
      <div class="thumbnail">
 
         <div class="card card-product-hover">
-          <img ng-src="{{ product.cover }}">
+          <a href= "{{ product.videoURL }}"><img ng-src="{{ product.cover }}"> </a>
           <div class="card-product-hover-icons">
             <a href="#"><i class="fa fa-star-o"></i></a>
           </div>
           <div class="card-product-hover-details">
            <h1 class="card-product-hover-title" >{{ product.title }}</h1>
+           <p class="card-product-hover-title" >{{ product.publisher }}</p>
             <span class="card-product-hover-price"> {{ product.views }} Views</span>
           </div>
         </div>
