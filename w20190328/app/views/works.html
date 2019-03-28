@@ -1,21 +1,60 @@
-<h1>Works Page</h1>
 <div class="main" ng-controller="MainController">
    <div class="container">
 
      <h1>{{ title }}</h1>
-     <h2>{{ promo }}</h2>
+     <h3>{{ promo }}</h3>
 
-     <div ng-repeat="product in products" class="col-md-6">
-      <div class="thumbnail">
-        <img ng-src="{{ product.cover }}">
-        <p class="title">{{ product.title }}</p>
-        <p class="price">{{ product.price | currency }}</p>
-        <p class="date">{{ product.pubdate | date }}</p>
-        <div class="rating">
-         <p class="likes" ng-click="plusOne($index)">+ {{ product.likes }} </p>
-         <p class="dislikes" ng-click="minusOne($index)">- {{ product.dislikes }} </p>
+
+     <!-- *Begin Video Selector -->
+      <div class="grid-container">
+
+       <div class="grid-x grid-padding-x">
+           <div class="large-12 cell">
+             <h1>Videos</h1>
+           </div>
+       </div>
+
+
+          <div class="grid-x grid-padding-x">
+           <div class="large-12 cell">
+            <div class="callout">
+
+
+       <div class="grid-x grid-padding-x">
+     <div ng-repeat="product in products" class="large-3 cell">
+     <div class="thumbnail">
+
+        <div class="card card-product-hover">
+          <img ng-src="{{ product.cover }}">
+          <div class="card-product-hover-icons">
+            <a href="#"><i class="fa fa-star-o"></i></a>
+          </div>
+          <div class="card-product-hover-details">
+           <h1 class="card-product-hover-title" >{{ product.title }}</h1>
+            <span class="card-product-hover-price"> {{ product.views }} Views</span>
+          </div>
+        </div>
+
        </div>
       </div>
+
+
+
+    </div>
+
+ </div>
+
+
+ <!-- *End Video Selector -->
+
+
+
+</div>
+</div>
+</div>
+
+   <!-- *End Content -->
+
     </div>
 
    </div>

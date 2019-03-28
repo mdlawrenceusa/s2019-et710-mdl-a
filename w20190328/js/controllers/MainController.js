@@ -1,6 +1,6 @@
 app.controller('MainController', ['$scope', function($scope) {
-  $scope.title = 'This Month\'s Bestsellers';
-  $scope.promo = 'The most popular books this month.';
+  $scope.title = 'ET710Tube';
+  $scope.promo = 'A little like YouTube';
   $scope.products = [
     {
   title: 'As Seen On TV TOOLS Tested! (TAC Tool, Pocket Chainsaw, MagnoGrip)',
