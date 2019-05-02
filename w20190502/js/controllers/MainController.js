@@ -8,7 +8,7 @@ app.controller('MainController', ['$scope', function($scope) {
   pubdate: new Date('2014', '03', '08'),
   publisherURL: 'https://www.youtube.com/user/HouseholdHacker',
   videoURL: 'https://youtu.be/UKBO-CumhrM',
-  cover: 'media/Business_1.png',
+  cover: 'media/business/Business_1.png',
   views: 643000,
   },
   {
@@ -17,7 +17,7 @@ publisher: 'Household Hacker',
 pubdate: new Date('2014', '03', '08'),
 publisherURL: 'https://www.youtube.com/user/HouseholdHacker',
 videoURL: 'https://youtu.be/UKBO-CumhrM',
-cover: 'https://i.ytimg.com/vi/UKBO-CumhrM/hqdefault.jpg?sqp=-oaymwEiCNIBEHZIWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCxtDmEGVFjurZZ7NjKiVC9HHTgZw',
+cover: 'media/health/HealthIcon.png',
 views: 643000,
 },
 {
